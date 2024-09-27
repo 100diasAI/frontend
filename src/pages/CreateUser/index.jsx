@@ -42,7 +42,7 @@ export default function NewUser() {
     });
   }, [])
 
-  document.title = "Pro Ropa - Registrarse";
+  document.title = "Shopping Online - Registrarse";
     
 
   const errorHandler = (data) => {

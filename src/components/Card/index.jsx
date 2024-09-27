@@ -130,7 +130,7 @@ const Card = ({ id, nombre, imagen, descripcion, precio, talles }) => {
                 </option>
               ))}
             </Select>
-            <P>BS {formatPrice}</P>
+            <P>${formatPrice}</P>
           </PriceSize>
           {stock ? (
             <Button onClick={handleAddCart}>Añadir al carrito</Button>

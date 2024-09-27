@@ -24,7 +24,7 @@ export default function Totales() {
         {
             icon: <IoLogoUsd />,
             title: "Total Ventas",
-            value: `Bs ${useSelector((state) => state.checkout.pedidos.reduce((acc, el) => acc += el.pago_total, 0))}`,
+            value: `$${useSelector((state) => state.checkout.pedidos.reduce((acc, el) => acc += el.pago_total, 0))}`,
         },
         {
             icon: <BsCart2 />,

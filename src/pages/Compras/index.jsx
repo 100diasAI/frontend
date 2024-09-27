@@ -1,7 +1,7 @@
 import ListContainer from "../../containers/ListContainer";
 
 export default function Compras({ theme }) {
-  document.title = "Pro Ropa - Compras";
+  document.title = "Shopping Online - Compras";
     window.scrollTo({
         top: 0,
         behavior: "smooth",

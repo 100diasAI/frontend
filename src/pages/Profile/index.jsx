@@ -26,7 +26,7 @@ import ModalContainer from "../../components/ModalReview/ModalContainer";
 import Modal from "../../components/ModalReview";
 import { getAllFavs } from "../../redux/actions/favoritos";
 
-document.title = "Pro Ropa - Perfil";
+document.title = "Shopping Online - Perfil";
     window.scrollTo({
         top: 0,
         behavior: "smooth",

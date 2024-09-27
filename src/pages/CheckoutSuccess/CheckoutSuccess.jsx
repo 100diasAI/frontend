@@ -52,7 +52,7 @@ const CheckoutSuccess = () => {
         dispatch(deleteCart());
     },[]);
     
-    document.title = "Pro Ropa - Pago "+datosDePago.estado;
+    document.title = "Shopping Online - Pago "+datosDePago.estado;
     window.scrollTo({
         top: 0,
         behavior: "smooth",

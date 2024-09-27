@@ -6,6 +6,7 @@ import Admin from '../../pages/Admin';
 import './Dashboard.css'
 import { ToastContainer } from 'react-toastify';
 
+
 export default function DashboardAdmin({theme}) {
     return (
         <div className='contenedor'>

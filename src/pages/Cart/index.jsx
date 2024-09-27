@@ -1,7 +1,7 @@
 import ShoppingCart from "../../containers/CartContainer";
 
 export default function Cart({theme}) {
-  document.title = "Pro Ropa - Carrito";
+  document.title = "Shopping Online - Carrito";
     window.scrollTo({
         top: 0,
         behavior: "smooth",

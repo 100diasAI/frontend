@@ -35,7 +35,7 @@ export default function Login() {
   const bloqueados = useSelector((state) => state.checkout.usuariosFiltrados);
   // console.log(bloqueados)
 
-  document.title = "Pro Ropa - Iniciar sesión";
+  document.title = "Shopping Online - Iniciar sesión";
 
   useEffect(() => {
     dispatch(getUsuarios());

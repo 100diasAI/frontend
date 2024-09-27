@@ -14,7 +14,7 @@ function Confirmacion() {
   const { id } = params;
   console.log(id);
 
-  document.title = "Pro Ropa - Confirmación";
+  document.title = "Shopping Online - Confirmación";
     window.scrollTo({
         top: 0,
         behavior: "smooth",

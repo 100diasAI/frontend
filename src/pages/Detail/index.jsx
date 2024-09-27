@@ -69,7 +69,7 @@ const ProductDetail = ({theme}) => {
   const { user: currentUser } = useSelector((state) => state.auth);
   let { productId } = useParams();
 
-  document.title = "Pro Ropa - "+product.nombre;
+  document.title = "Shopping Online - "+product.nombre;
   window.scrollTo({
     top: 0,
     behavior: "smooth",

@@ -143,7 +143,7 @@ export default function AddPopUp({
           {talle.current !== "Sin talle" ? (
             <H4>Talle: {talle.current}</H4>
           ) : null}
-          <H3>Subtotal: Bs{formatPrice(precio)}</H3>
+          <H3>Subtotal: ${formatPrice(precio)}</H3>
 
           <Button onClick={deleteCartItem}>
             Eliminar <Trash />
@@ -163,7 +163,7 @@ export default function AddPopUp({
           )}
           {onStock ? null : <ErrText>Stock máximo</ErrText>}
 
-          <H3>Subtotal: Bs{formatPrice(pedido.precio + precio)}</H3>
+          <H3>Subtotal:${formatPrice(pedido.precio + precio)}</H3>
           <Button onClick={addMore}>
             Añadir <AddMore />
           </Button>

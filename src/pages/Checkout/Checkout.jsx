@@ -269,7 +269,7 @@ const Checkout = () => {
                             <div>
                                 {
                                     envio === "Envio" && 
-                                        <label><br />Costo de envío: Bs500<br /><br /></label>
+                                        <label><br />Costo de envío:$500<br /><br /></label>
                                 }{
                                     inputEnvio.direccion && envio === "Retiro" ? 
                                     <label><br />Retiro a partir de 3 días hábiles - Punto de retiro: {inputEnvio.direccion}</label>

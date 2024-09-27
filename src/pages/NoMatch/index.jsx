@@ -4,7 +4,7 @@ import Loading from "../../components/Loader";
 import { NoMatchContainer, SVG, TxtContainer } from "./style";
 
 function NoMatch() {
-  document.title = "Pro Ropa - Error!";
+  document.title = "Shopping Online - Error!";
     window.scrollTo({
         top: 0,
         behavior: "smooth",

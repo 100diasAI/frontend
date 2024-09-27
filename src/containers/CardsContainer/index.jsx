@@ -10,7 +10,7 @@ export default function CardContainer({ products , theme }) {
   // if (products.length === 1) {
   //   btn = <BTN onClick={() => dispatch(getProducts())}>Regresar</BTN>;
   // }
-  document.title = "Pro Ropa"
+  document.title = "Shopping Online"
 
   return (
     <Section>
