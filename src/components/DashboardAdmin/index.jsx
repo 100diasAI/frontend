@@ -5,7 +5,7 @@ import Sales from '../../pages/Admin/sales';
 import Admin from '../../pages/Admin';
 import './Dashboard.css'
 import { ToastContainer } from 'react-toastify';
-
+import Totales from '../../components/DashboardAdmin/Totales.jsx';
 
 export default function DashboardAdmin({theme}) {
     return (
