@@ -16,7 +16,7 @@ import {
   GET_PRODUCTS_FAIL_SEARCH,
 } from "./actionTypes";
 
-const URL_SERVER = "http://localhost:3001";
+const URL_SERVER = "https://backend-xsy3.onrender.com";
 
 export const getProducts = (search) => {
   return async (dispatch) => {

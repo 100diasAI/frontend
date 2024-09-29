@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = 'http://localhost:3001';
+const API_URL = 'https://backend-xsy3.onrender.com';
 export const getUserId = (userName , userMail) => async dispatch =>{
     const users = await axios.get(`${API_URL}/user?search=${userName}`)
     const user = users.data.filter(p=>p.mail===userMail);

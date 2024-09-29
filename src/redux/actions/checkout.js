@@ -13,7 +13,7 @@ import {
   GET_ALL_SUCURSALES,
 } from "./actionTypes";
 
-const URL_SERVER = "http://localhost:3001";
+const URL_SERVER = "https://backend-xsy3.onrender.com";
 
 // Handle HTTP errors since fetch won't.
 export const checkout = (checkoutData) => async (dispatch) => {

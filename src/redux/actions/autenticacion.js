@@ -81,7 +81,7 @@ export const clearMsg = (dispatch) => {
 };
 
 export const logout = () => async (dispatch) => {
-  // console.log("SALGO");
+  console.log("SALGO");
   await fetch(API_URL + "salir", {
     method: "POST",
     credentials: "include",
