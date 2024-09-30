@@ -101,7 +101,7 @@ export default function OrderItem({ id , item }) {
           </Text>
         </Li>
         <Li key={`${id}price`}>
-          <h3>Bs{Intl.NumberFormat("es-AR").format(item.precio)}</h3>
+          <h3>${Intl.NumberFormat("es-AR").format(item.precio)}</h3>
         </Li>
         <Li key={`${id}amount`}>
           <Amount>
@@ -114,7 +114,7 @@ export default function OrderItem({ id , item }) {
             }
         </Li>
         <Li key={`${id}subtotal`}>
-          <h3>Bs{Intl.NumberFormat("es-Bo").format(productOrder.subtotal)}</h3>
+          <h3>${Intl.NumberFormat("es-Ar").format(productOrder.subtotal)}</h3>
         </Li>
       </List>
     </Div>

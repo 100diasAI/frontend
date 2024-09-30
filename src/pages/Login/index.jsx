@@ -137,7 +137,7 @@ export default function Login() {
             <div style={{ width: "100%" }}>
               <ButtonLogIn type="submit">Iniciar sesión</ButtonLogIn>
             </div>
-            <div style={{ display: "flex", justifyContent: "center" }}>
+            {/* <div style={{ display: "flex", justifyContent: "center" }}>
               <GoogleLogin
                 theme="filled_black"
                 locale="es"
@@ -145,7 +145,7 @@ export default function Login() {
                 onSuccess={handleLogin}
                 onError={(error) => console.log(error)}
               />
-            </div>
+            </div> */}
             {alert.msg && alert.type === "error" && (
               <p
                 style={{

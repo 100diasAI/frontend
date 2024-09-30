@@ -41,7 +41,7 @@ export default function LineChart() {
     }, [])
 
     useEffect(() => {
-        let obj1 = { 2016: 0, 2017: 0, 2018: 0, 2019: 0, 2020: 0, 2021: 0, 2022: 0 }
+        let obj1 = { 2020: 0, 2021: 0, 2022: 0,2023: 0, 2024: 0 }
         let obj2 = { 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0, 11: 0, 12: 0 }
         let años = pedidos.map(element => element.fecha.substring(0, 10).split("-")[0].trim())
         let meses = pedidos.map(element => element.fecha.substring(0, 10).split("-")[0].trim() == "2022" ? element.fecha.substring(0, 10).split("-")[1].trim() : "")
@@ -65,7 +65,7 @@ export default function LineChart() {
         setCambiar(!cambio)
     }
 
-    cambio ? labels = [2016, 2017, 2018, 2019, 2020, 2021, 2022] : labels = ["Ene", "Feb", "Mzo", "Abr", "May", "Jun", "Jul"]
+    cambio ? labels = [ 2020, 2021, 2022,2023,2024] : labels = ["Ene", "Feb", "Mzo", "Abr", "May", "Jun", "Jul"]
     cambio ? scores = Object.values(ventasAños) : scores = Object.values(ventasMeses)
 
     const options = {

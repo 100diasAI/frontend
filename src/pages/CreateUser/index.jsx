@@ -212,7 +212,7 @@ export default function NewUser() {
           </Li>
         </List>
         <Button type="submit">Registrarse</Button>
-        <div style={{ display: "flex", justifyContent: "center" }}>
+        {/* <div style={{ display: "flex", justifyContent: "center" }}>
           <GoogleLogin
             theme="filled_black"
             text="continue_with"
@@ -221,7 +221,7 @@ export default function NewUser() {
             onSuccess={handleLogin}
             onError={(error) => console.log(error)}
           />
-        </div>
+        </div> */}
 
         {(alert.msg && alert.type === "success") ||
           (alert.type === "success-google" && (
